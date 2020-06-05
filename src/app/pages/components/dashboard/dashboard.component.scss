@@ -1,0 +1,73 @@
+nb-card {
+  overflow: hidden;
+}
+
+nb-tabset {
+  display: flex;
+  flex-direction: column;
+
+  ::ng-deep ul {
+    // make same size as card header
+    padding-bottom: 1px;
+
+    ::ng-deep .tab-link {
+      padding: 1.25rem 2rem;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+nb-tab {
+  padding: 0;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &:first-child {
+    border-top: none;
+  }
+
+  .icon-search {
+    cursor: pointer;
+  }
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &:first-child {
+    border-top: none;
+  }
+
+  ::ng-deep .company-title {
+    cursor: pointer;
+    display: inline-block;
+
+    &:hover {
+      background: -webkit-gradient(linear, left top, right top, from(#ffc94d), to(#ffaa00));
+      background: linear-gradient(to right, #ffc94d, #ffaa00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+app-company-placeholder {
+  width: 100%;
+}
+
+.pd-0 {
+  padding: 0;
+}
+
+.p-r-10 {
+  padding-right: 10px;
+}
