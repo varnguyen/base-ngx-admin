@@ -12,15 +12,15 @@
   "private": true,
   "dependencies": {
     "@agm/core": "^1.1.0",
-    "@angular/animations": "~9.0.7",
+    "@angular/animations": "~10.2.4",
     "@angular/cdk": "^9.0.0",
-    "@angular/common": "~9.0.7",
-    "@angular/compiler": "~9.0.7",
-    "@angular/core": "~9.0.7",
-    "@angular/forms": "~9.0.7",
-    "@angular/platform-browser": "~9.0.7",
-    "@angular/platform-browser-dynamic": "~9.0.7",
-    "@angular/router": "~9.0.7",
+    "@angular/common": "~10.2.4",
+    "@angular/compiler": "~10.2.4",
+    "@angular/core": "~10.2.4",
+    "@angular/forms": "~10.2.4",
+    "@angular/platform-browser": "~10.2.4",
+    "@angular/platform-browser-dynamic": "~10.2.4",
+    "@angular/router": "~10.2.4",
     "@nebular/auth": "4.4.0",
     "@nebular/eva-icons": "5.0.0",
     "@nebular/security": "4.4.0",
@@ -39,10 +39,10 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.900.7",
-    "@angular/cli": "~9.0.7",
-    "@angular/compiler-cli": "~9.0.7",
-    "@angular/language-service": "~9.0.7",
+    "@angular-devkit/build-angular": "~0.1002.1",
+    "@angular/cli": "~10.2.1",
+    "@angular/compiler-cli": "~10.2.4",
+    "@angular/language-service": "~10.2.4",
     "@schematics/angular": "~9.0.7",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
@@ -58,6 +58,6 @@
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
-    "typescript": "~3.7.5"
+    "typescript": "~4.0.5"
   }
 }
