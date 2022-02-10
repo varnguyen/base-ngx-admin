@@ -30,7 +30,7 @@
     "nebular-icons": "1.1.0",
     "ng2-completer": "2.0.8",
     "ng2-smart-table": "^1.6.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "roboto-fontface": "0.8.0",
     "rxjs": "6.6.2",
     "rxjs-compat": "6.3.0",
